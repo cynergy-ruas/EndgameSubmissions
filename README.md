@@ -1,10 +1,12 @@
 # CYNERGY Endgame Web Development Submissions
 
+NOTE: Only the submission before 12:30 pm 20-April-2019 are considered, any commits made after this time is not considered for evaluation.
+
 ## 1234Arif
 
 [1234Arif](1234Arif/)
 
-## AsAshishjaiswal181
+## Ashishjaiswal181
 
 [Ashishjaiswal181](Ashishjaiswal181/)
 
@@ -30,7 +32,7 @@
 
 ## satyajitghana
 
-[satyajitghana](satyajitghana/)
+[satyajitghana](https://satyajitghana.github.io/ProjektIodine/)
 
 ## TanishqPorwar
 
