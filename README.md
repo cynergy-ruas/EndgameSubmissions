@@ -30,10 +30,6 @@ NOTE: Only the submission before 12:30 pm 20-April-2019 are considered, any comm
 
 [pranavmp-10-000](pranavmp-10-000/)
 
-## satyajitghana
-
-[satyajitghana](https://satyajitghana.github.io/ProjektIodine/)
-
 ## TanishqPorwar
 
 [TanishqPorwar](TanishqPorwar/)
