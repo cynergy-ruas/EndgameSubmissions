@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+<!-- ANIMATE .CSS -->
+<link rel="stylesheet" type="text/css" href="Assets/CSS/animate.css">
+
+<title>EndGame Chat</title>
+<link rel="shortcut icon" href="Imgs/endgame.jpg" type="image/x-icon" />
+<style>
+body
+{
+	background: #d3f0ea;
+  font-family:'Roboto Slab', serif !important;
+  font-family: 'Hammersmith One', sans-serif;
+}
+#_title
+{
+  color:#2b524a;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top:1.6vw;
+  transition: 0.4s all;
+}
+#_create ,#_join
+{
+  color:#62baa8 !important;
+  background-color: transparent; 
+  border-bottom:3px solid transparent !important;
+  margin: 20px auto;
+  border-style: none;
+  padding: 10px 1.5vw;
+  font-size: 25px;
+  width:100%;
+  overflow: hidden;
+  color:white;
+  border-radius: 3px;
+  transition: all 0.4s;
+}
+#_create:hover,#_join:hover
+{
+  color :#2b524a !important;//2b524a
+  border:3px solid #2b524a !important;
+}
+.cont
+{
+  position: relative;
+  margin: 30px auto;
+  overflow: hidden;
+  padding :25px;
+  border-radius: 15px;
+  width: 90%;
+  overflow: hidden;
+  transition: all 1s;
+}
+._totalBody
+{
+  border-top: 5px solid #62baa8 !important;
+  overflow: hidden;
+  height: 350px;
+  position: relative;
+  width:50vw;
+  left:25vw;
+  top:30vh;
+  background-color: #f0faf8;
+  box-shadow: 7px 7px 36px rgba(19,37,33,0.1);
+  transition: 0.4s all;
+  border: 5px solid transparent;
+}
+._totalBody:hover{
+  box-shadow: 7px 7px 36px rgba(19,37,33,0.3);
+  border-top: 5px solid #2b524a !important;
+  border-bottom:5px solid #2b524a;
+}
+._totalBody:hover > #_title{
+  color:#62baa8 !important;
+}
+button:focus {
+    outline-width: 0;
+}
+a
+{
+  text-decoration: none !important;
+}
+
+.sign_up{
+    cursor:pointer;
+    color:#33C1A5;
+    float: right;
+    font-size: 20px;
+    opacity: 1;
+    position: relative;
+    top : 15px;
+    border-radius: 25px;
+    padding: 7px 10px;
+    right : 25px;   
+    transition:0.6s all;
+    animation: arrive 0.7s ease-in-out 1s forwards;
+    border:2px solid #47a18f;
+}
+
+.sign_up:hover
+{
+    color:#2b524a;
+    border: 2px solid #2b524a;
+}
+.sign_up:hover>a
+{
+    color:#2b524a;
+}
+
+</style>
+
+<html>
+   
+<head>
+	<title>CHATTING</title>
+</head>
+<body>
+<div class="sign_up">
+<a href="signup.html">Sign-Up</a>
+</div>
+<div class="_totalBody">
+<p id="_title">ChatRoom</p>
+<div class ="cont">
+<a href="create.html">
+<button id="_create"  type="button">Create a Room</button></a>
+<a href="join.html">
+<button id="_join"  type="button">Join a Room</button></a>
+</div>
+</div>
+</body>
+</html>

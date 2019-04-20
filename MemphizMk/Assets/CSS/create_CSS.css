@@ -1,0 +1,228 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Roboto Slab', serif;
+    font-size: 16;
+    background-size: 200% 100% !important;
+    animation: move 10s ease infinite;
+    transform: translate3d(0, 0, 0);
+    background: linear-gradient(45deg, #62baa8 10%, #d3f0ea 90%);
+    height: 90vh;
+    overflow: hidden;
+}
+
+
+.toast-warning {
+    box-shadow: none !important;
+    font-family:'Roboto Slab', serif !important;
+    font-size: 16;
+    color : black !important;
+    background-color: #6aa499 !important;
+}
+.toastr-error{
+    box-shadow: none !important;
+}
+a
+{
+    color:#47a18f;
+    text-decoration: none;
+    transition: 0.6s all;
+}
+.overlay{
+    transition: 0.6s all;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    left: 0px;
+    top: -10vh;
+    opacity: 0;
+    z-index: -1;
+    width:100vw;
+    height: 100vh;
+    color: 
+    ;
+}
+.share{
+    text-align: center;
+    margin-top: 3vh;
+    user-select: none;
+}
+.close{
+    float: right;
+    font-family:'Roboto Slab', serif !important;
+    background-color:#47a18f;
+    border-style: none;
+    color:white;
+    padding: 8px 2.2vw;
+    position: relative;
+    right: 2vw;
+    top:2vh;
+    border-radius: 3px;
+    font-size: 14px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+    transition: 0.4s all;
+    }
+.close:hover{
+    background-color: #2b524a !important;
+    }
+
+.rm_id{
+    font-size: 20px;
+    color:#2b524a;
+    background-color: #f0f0f0;
+    padding: 2px 8px;
+    top:2vh;
+    border-bottom:2px solid #2b524a;
+
+}
+.room_inf{
+    border-radius: 5px;
+    width:23vw;
+    position: absolute;
+    height: 20vh;
+    left: 38.5vw;
+    top:38.5vh;
+    background-color: #f0faf8;
+    overflow: hidden;
+}
+
+.sign_up{
+    cursor:pointer;
+    color:#47a18f;
+    float: right;
+    opacity: 0;
+    position: relative;
+    top : -55px;
+    border-radius: 25px;
+    padding: 7px 10px;
+    right : 25px;   
+    transition:0.6s all;
+    animation: arrive 0.7s ease-in-out 1s forwards;
+    border:2px solid #47a18f;
+}
+
+.sign_up:hover
+{
+    color:#2b524a;
+    border: 2px solid #2b524a;
+}
+.sign_up:hover>a
+{
+    color:#2b524a;
+}
+.user {
+    width: 90%;
+    max-width: 340px;
+    margin: 10vh auto;
+}
+
+.user__header {
+    text-align: center;
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+    animation: arrive 0.3s ease-in-out 0.7s forwards;
+}
+
+.user__title {
+    font-size: 60px;
+    margin-bottom: -10px;
+    font-weight: 500;
+    color: #2b524a;
+}
+
+.form {
+    margin-top: 160px;
+    border-radius: 6px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+    animation: arrive 0.3s ease-in-out 0.9s forwards;
+}
+
+.form--no {
+    animation: NO 1s ease-in-out;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;install
+    transition: 0.3s;
+    
+    &:focus {
+        background: darken(#fff, 3%);
+    }
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    -webkit-appearance: none;
+    outline: 0;
+    border: 0;
+    color: white;
+    background: #47a18f;
+    transition: 0.4s all ease-in-out;
+}    
+    .btn:hover {
+        background: #2b524a;
+    }
+
+
+
+
+@keyframes NO {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes arrive {
+    0% {
+        opacity: 0;
+        transform: translate3d(50px, 10px, 500px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0 0
+    }
+}

@@ -1,0 +1,288 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+	text-decoration: none;
+	color: white;
+}
+.home-header{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)), url('../images/background-1.jpg');
+	height: 90vh;
+	width: auto;
+	background-size: cover;
+	box-shadow: 0px 0px 20px black;
+}
+body{
+	background-color: #DEEED6;
+	background-image: url('../images/background-tile.jpg');
+}
+.top-row{
+	max-width: 1300px;
+	margin: 0 auto;
+	}
+.logo{
+	display: inline-block;
+	height: 100px;
+	width: auto;
+	transition: 0.5s ease;
+}
+.logo:hover{
+	height: 130px;
+	width: auto;
+	border: solid white;
+	border-radius: 50%;
+}
+li{
+	display: inline-block;
+	margin-top: 30px;
+	padding: 20px;
+}
+li a{
+	font-size: 100%;
+	transition: 0.3s ease;
+}
+li a:hover{
+	font-size: 140%;
+	color: #8ECBFF;
+}
+.top-message{
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, 0);
+	font-size: 250%;
+	font-weight: lighter;
+	border: solid white;
+	padding: 5px;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+.top-message:hover{
+	font-size: 280%;
+}
+.separator{
+	height: 1px;
+	background-color: #04050E;
+}
+.quotation {
+	text-align: center;
+	height: 180px;
+
+}
+.quotation {
+	/*position: relative;
+	top: 100px;*/
+	margin-top: 100px;
+	font-style: italic;
+	color: black;
+	font-size: 130%;
+}
+#donate-btn{
+	position: absolute;
+	left: 40%;
+	top: 80%;
+	transform: translate(-50%, 0);
+	font-size: 170%;
+	border: solid white;
+	padding: 5px;
+	border-radius: 20px;
+	transition: 0.3s ease;
+}
+#receive-btn{
+	position: absolute;
+	left: 60%;
+	top: 80%;
+	transform: translate(-50%, 0);
+	font-size: 170%;
+	border: solid white;
+	padding: 5px;
+	border-radius: 20px;
+	transition: 0.3s ease;
+}
+#donate-btn:hover, #receive-btn:hover{
+	background: white;
+	color: black;
+	font-size: 200%;
+}
+.body-1{
+	height: 70vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/background-3.jpg');
+	background-size: cover;
+}
+
+.message-box-1, .message-box-2{
+	height: 300px;
+	width: 300px;
+	position: relative;
+	top: 100px;
+	margin-left: 120px;
+	background-color: transparent;
+	font-family: Calibri;
+	font-size: 130%;
+	letter-spacing: 1px;
+	padding: 10px;
+	border-radius: 10px;
+	transition: 0.5s ease;
+}
+.message-box-1:hover, .message-box-2:hover{
+	background-color: rgba(0,0,0,0.6);
+}
+.message-box-1 a, .message-box-2 a{
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 80%;
+	border: solid white;
+	padding: 5px;
+	border-radius: 20px;
+	transition: 0.3s ease;
+}
+.message-box-1 a:hover, .message-box-2 a:hover{
+	background: white;
+	color: black;
+	font-size: 100%;
+}
+.message-box-2{
+	position: relative;
+	top: 100px;
+	float: right;
+	margin-right: 120px;
+}
+.body-2{
+	height: 80vh;
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url('../images/background-4.jpg');
+	background-size: cover;
+}
+
+
+.login-place{
+	height: 90vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/background-5.jpg');
+	background-size: cover;
+	box-shadow: 0px 10px 10px black;
+}
+
+.login-box{
+	background-color: rgba(0,0,0,0.4);
+	height: 420px;
+	width: 300px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-150px, -210px);
+	border-radius: 15px;
+	color: black;
+	transition: 0.3s ease;
+}
+.login-box:hover{
+	background-color: rgba(0,0,0,0.6);
+}
+#user-icon{
+	height: 70px;
+	width: auto;
+	border: solid #8ECBFF;
+	border-radius: 50%;
+	position: relative;
+	margin-left: 50%;
+	margin-top: 10%;
+	transform: translate(-35px, 0px);
+}
+.login-form input[type='text']{
+	color: white;
+	font-size: 120%;
+	width: 280px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+}
+.login-form input[type='password']{
+	color: white;
+	font-size: 120%;
+	width: 280px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+}
+#btn-sbm{
+	color: white;
+	background-color: rgba(0,0,0,0.5);	
+	padding: 10px;
+	position: relative;
+	top: 20px;
+	border: solid white;
+	border-radius: 10px;
+	font-size: 120%;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+#btn-sbm:hover{
+	background-color: white;
+	color: black;
+}
+.bottom-panel{
+	height: 15vh;
+	background-color: rgba(155,140,122,0.7);
+}
+
+.bottom-panel-msg{
+	color: black;
+	text-align: center;
+	font-size: 200%;
+	font-family: Impact;
+	padding-top: 30px;
+	padding-right: 20px;
+	display: inline-block;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+#join-us-link{
+	font-family: Impact;
+	font-size: 200%;
+	color: #3B476E;
+	border: solid;
+	border-color: white;
+	border-radius: 5px;
+	padding: 5px;
+	transition: 0.5s ease;
+}
+#join-us-link:hover{
+	background-color: white;
+	color: black;
+}
+.bottom-row{
+	height: 70vh;
+	box-shadow: 0px 0px 10px black inset;
+}
+.logo2{
+	height: 140px;
+	width: auto;
+	margin-top: 20px;
+	margin-left: 50vw;
+	transform: translate(-70px, 0px);
+	border: solid #1765B1;
+	border-radius: 50%;
+}
+#motto{
+	color: black;
+	text-align: center;
+	font-family: Arial Narrow;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.bottom-links{
+	position: relative;
+	left: 50%;
+	transform: translate(-300px, 0px);
+}
+.bottom-links li a{
+	color: black;
+	font-family: Arial Narrow;
+	font-size: 140%;
+}
+.bottom-links li a:hover{
+	font-size: 160%;
+}

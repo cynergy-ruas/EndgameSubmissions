@@ -1,0 +1,132 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>EndGame Chat</title>
+	<link rel="shortcut icon" href="Imgs/endgame.jpg" type="image/x-icon" />
+	<!-- FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+	<!--EMOJI-->
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+	<!--VOICE ASSIST-->
+	<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+	<!--ICONS-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--<link rel="stylesheet" type="text/css" href="Assets/CSS/join_CSS.css">-->
+
+	<!--FIREBASE -->
+	<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- TOASTR -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+
+
+
+</head>
+<body>
+
+<!--LOADER-->
+<div class="load_overlay">
+	<div class="loader"></div>
+</div>
+
+<!--SETTING-->
+<div class="setting_wrap">
+<i class="fa fa-wrench setting" aria-hidden="true"></i>
+</div>
+<!--LOGIN OVERLY-->
+
+<div class="overlay">
+	<div class="overlay_cont">
+		<div class="text_cont">
+			<input type="text" class="usnm" placeholder="Username">
+			<input type="password" class="pass" placeholder="Password">
+			<input type="text" class="room_id" placeholder="Room ID">
+			<button class="_login"><i class="fa fa-check" aria-hidden="true"></i></button>
+		</div>
+	</div>
+</div>
+
+
+
+<!--SETTING OVERLAY-->
+<div class="set_overlay">
+	<div class="set_container">
+		<div class="left_cont">
+		<!--PROFILE PIC-->
+		<div class="real_picwrap">
+		<div class="propic_wrap">	
+		<img src="http://i.imgur.com/I6QPAk2.gif" class="set_pic">	
+		<div class="upload_wrap">
+			<img src="http://i.imgur.com/msr33HQ.png" class="up_overlay">
+		<input type="file" class="set_DP" style="display:none">
+		</div>
+		</div>
+		</div>
+		<div class="set_wrap">
+			<!--DISPLAY NAME-->
+		<input type="text" class="field disp_nm" placeholder="Display Name">
+		<!--USNER NAME-->
+		<input type="text" class="field mail" placeholder="Mail" disabled="true">
+
+		<!--SUBMIT-->
+		<input type="button" class="field submi" value="Submit">
+		<!--CANCEL-->
+		<input type="button" class="field canc" value="Cancel">
+		<!--SIGN OUT-->
+		<input type="button" class="field sign_o" value="SignOut">
+		</div>
+		</div>
+		<div class="right_cont">
+		<!--VOICE ASSIST-->
+		<p class="option_label">Voice Assist :</p>
+		<input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+		</div>
+
+	</div>
+</div>
+
+
+<!--MAIN-->
+<div class="modal">
+	<div class="container">
+		<!--
+			<div class="mes_wrap">
+				<div class="message me">Deepak</div>
+			</div>
+			<div class="mes_wrap ">
+				<div class="message me"> Lorem Ipsi</div>
+			</div>
+			<div class="mes_wrap">
+			<p class="name_p">Deepak</p>
+			<div class="pic"><img class="prof_pic" src="http://i.imgur.com/b35Ocss.png"></div>
+				<div class="message other">ewe </div>
+			</div>
+			<div class="mes_wrap ">
+				<div class="message me">Me again</div>
+			</div>
+			-->
+		
+	</div>
+	<div class="_text">
+		<input type="text" name="" class="input_bar" placeholder="Enter Your Text">
+		<button class="send" ><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+	</div>
+</div>
+</body>
+
+	<!--ECTERNAL-->
+	<!--<link rel="stylesheet" type="text/css" href="https://codepen.io/weirdassboi/pen/qXdbEg.css"></link>-->
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/join_CSS.css">
+	<!--<script type="text/javascript" src="Assets/join.js"></script>-->
+
+	<script type="text/javascript" src="Assets/join.js"></script>
+</html>

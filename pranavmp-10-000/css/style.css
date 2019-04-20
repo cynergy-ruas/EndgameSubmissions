@@ -1,0 +1,48 @@
+#form{
+    vertical-align: center;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    text-align: center;
+    box-align:center;
+    
+    
+}
+#username,#password{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-top:16px;
+    margin-bottom: 16px;
+}
+.hint{
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+       
+}
+#login{
+    margin-top: 8px;
+    border-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    background-color: white;
+    color:brown;
+    padding:8px;
+    border-color: black;
+    text-decoration: none;
+    
+}
+#login:hover{
+    color: white;
+    background-color:brown;
+    font-size: 20px;
+}
+form{
+    display: inline-block;
+    padding: 20%;
+    border-style: solid;
+    border-radius: 16px;
+
+}

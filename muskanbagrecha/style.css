@@ -1,0 +1,39 @@
+body{
+    font-family: 'Times New Roman', cursive;
+    color: red;
+    background-color: black;
+    background-image: url("imagee.jpg");
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    font-family: 'courier new', cursive;
+    font-size: 20px;
+    color: red;
+}
+li{
+    left: 100px;
+    float: left;
+    padding: 30px;
+    list-style: none;
+    margin: 20px;
+    border: 8px solid red;
+    background-color: black;  
+}
+li:hover{
+    background-color: red;
+    border: pink;
+    color: white;
+    text-decoration: underline;
+}
+h2{
+    color: red;
+}
+#wrapper{
+    if "yesno"=No
+    <button type="button" onclick="alert('Mail us at surakshaforall@gmail.com')">Submit</a></button>
+}
+

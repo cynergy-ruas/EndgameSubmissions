@@ -1,0 +1,99 @@
+.harvest-header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/background-2.jpg');
+	height: 90vh;
+	width: auto;
+	background-size: cover;
+	box-shadow: 0px 0px 20px black;
+}
+h1{
+	color: white;
+	margin: 30px;
+	margin-left: 60px;
+	font-weight: lighter;
+	font-size: 160%;
+}
+h2{
+	text-align: center;
+	font-size: 100%;
+	padding: 20px;
+}
+h2 img{
+	height: 20px;
+	width: auto;
+	margin-left: 10px;
+	top: 5px;
+}
+.plan-1, .plan-2, .plan-3{
+	height: 400px;
+	width: 300px;
+	position: relative;
+	background-color: rgba(0,0,0,0.3);
+	font-family: Calibri;
+	font-size: 130%;
+	letter-spacing: 1px;
+	padding: 10px;
+	border-radius: 10px;
+	transition: 0.5s ease;
+	display: inline-block;
+	cursor: pointer;
+}
+.plan-1{
+	position: absolute;
+	left: 25%;
+	transform: translate(-150px, 0px);
+}
+.plan-2{
+	position: absolute;
+	left: 50%;
+	transform: translate(-150px, 0px);
+}
+.plan-3{
+	position: absolute;
+	left: 75%;
+	transform: translate(-150px, 0px);
+}
+.plan-1:hover, .plan-2:hover, .plan-3:hover{
+	background-color: rgba(0,0,0,0.6);
+
+}
+.thumbnail{
+	height: 150px;
+	width: 250px;
+	padding: 10px;
+	position: relative;
+	left: 50%;
+	transform: translate(-125px,0px);
+	opacity: 0.7;
+}
+.description{
+	font-size: 80%;
+	padding: 5px;
+}
+.price-btn{
+	color: #DFEE00;
+	position: absolute;
+	left: 105px;
+	padding: 5px;
+	border: solid #DFEE00;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.5);
+	transition: 0.3s ease;
+}
+.price-btn:hover{
+	background-color: #DFEE00;
+	color: black;
+}
+
+.harvest-body-1{
+	height: 80vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/background-7.jpg');
+	background-size: cover;
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.harvest-body-2{
+	height: 90vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/background-6.jpg');
+	background-size: cover;
+	box-shadow: 0px 10px 10px black;
+}

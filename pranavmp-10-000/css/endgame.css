@@ -1,0 +1,53 @@
+#barlist{
+    color:white;
+     
+}
+#barlist li{
+    display: inline;
+    font-size: 24px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    /*list-style-type: horizontal;*/
+}
+#barlist li a{
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline;
+    text-decoration: none;
+    color: white; 
+    text-align: center; 
+}
+.last-child{
+    float: right;
+    border-left: 2px solid;
+    border-color: white;
+
+}
+#top-bar ul{
+    color:white;
+    
+    font-family: 'Open Sans';
+    list-style-type: horizontal;
+    width:auto;
+    
+}
+#top-bar{
+    width:100%;
+    background-color: forestgreen;
+    background-repeat: repeat-x;
+    box-shadow: 3px grey;
+}
+.column img{
+    width:40%;
+    float:left;
+    padding:8px;
+    position: relative;
+    height:50%;
+    border-radius: 20px;
+}
+
+.column p,h1{
+    font-family: 'Open Sans';
+
+}

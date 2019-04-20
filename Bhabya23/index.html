@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>free2O</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/donate-style.css">
+	<link rel="stylesheet" type="text/css" href="css/receive-style.css">
+</head>
+<body>
+	<header class="home-header">
+		<div style="background-color: black;box-shadow: 0px 0px 20px black;">
+			<div class="top-row">
+			<nav class="nav-bar">
+				<a href="#"><img src="images/logo.png" class="logo"></a>
+				<ul style="display: inline-block;float: right;">
+					<li><a href="#">Home</a></li>
+					<li><a href="#login_id" id="login-out" onclick="toggle()">Login</a></li>
+					<li><a href="pages/harvest.html">Harvest</a></li>
+					<li><a href="#">Community</a></li>			
+					<li><a href="#">Help</a></li>
+				</ul>
+			</nav>
+			</div>	
+		</div>
+		<span class="top-message" title="Our Motto">We believe in 
+			<span style="color: #8ECBFF;">Giving</span></span>
+			<a href="#donate_place_id" id="donate-btn">Donate</a>
+			<a href="#receive_place_id" id="receive-btn">Receive</a>
+	</header>
+	<!--<div class="separator"></div>-->
+	<div class="quotation">
+			“For every drop of water you waste, you must know that somewhere on earth<br> someone is desperately looking for a drop of water!”
+			<span style="color: #2B4B60; font-size: 120%"> ― Mehmet Murat ildan </span>
+	</div>
+
+	<div class="main-body">
+
+		<div class="body-1">
+			<div class="message-box-1">free2O is an organisation that aims at providing low-cost water
+				harvesting equipment and services to meet the daily water requirements. Those in dire 
+				need of water can obtain cost-free supply from those harvests.<br>
+				<a href="#">Learn More ></a>
+			</div>
+		</div>
+		<div class="body-2">
+			<div class="message-box-2">Within a very short time since its arrival, 
+				free2O has been implemented all over the country, with a remarkable set of
+				feedbacks. Feeding water to the thirsty has never been so easy before.
+				<br>
+				<a href="#">Learn More ></a>
+			</div>
+		</div>
+	</div>
+	<div class="login-place" id="login_id">
+		<div class="login-box">
+			<img id="user-icon" src="images/user-icon.png">
+			<center>
+				Login
+				<div id="wrong_info" style="display: none; color: red">Wrong email or Password</div>
+				<div id="logged_info" style="display: none; color: red">Already Logged in</div>				
+			<form  class= "login-form" style="padding: 10px;" action="none">
+				<br>
+				<input type="text" name="email" placeholder="Enter email" id="email_id"><br>
+				<br>
+				<input type="password" name="password" placeholder="Enter password" id="password_id">
+				<br>
+				<a id="btn-sbm" onclick="login()">login</a><br>		
+			</form>
+			<br><br>
+			<a href="#" style="color: #4FC7EF;">Forgot Password</a><br>
+			<a href="#" style="color: #4FC7EF;">Sign Up</a>
+			</center>
+	</div>
+	</div>
+	<div class="donate-place" id="donate_place_id">
+		<div class="donate-box">
+			<center>
+				<p style="padding-top: 20px; font-size: 130%;">Donate</p> 
+				<form  class= "donate-form" style="color: white; padding: 10px;">
+					<br>
+					<input type="text" name="Amount" placeholder="Enter amount (in rupees)"><br>
+					<br>
+					OR
+					<br><br>
+					<input type="text" name="quantity" placeholder="Enter quantity (in ltrs)">
+					<input type="submit" name="btn-sbm" value="Donate" >				
+				</form>
+			</center>
+		</div>
+	</div>
+	<div class="receive-place" id="receive_place_id">
+		<div class="receive-box">
+			<center>
+				<p style="padding-top: 20px; font-size: 130%;">Receive</p> 
+				<form  class= "receive-form" style="color: white; padding: 10px;">
+					<br>
+					<input type="text" name="Address" placeholder="Enter Address">
+					<br>
+					<br>
+					<input type="text" name="quantity" placeholder="Enter quantity(in ltrs)">
+					<input type="submit" name="btn-sbm" value="Apply">				
+				</form>
+			</center>
+		</div>
+	</div>
+	<div class="bottom-panel">
+		<center><span class="bottom-panel-msg">Save the World</span>
+			<a href="#" id="join-us-link">Join Us</a></center>
+	</div>
+	<footer>
+		<div class="bottom-row">
+			<img src="images/logo2.png" class="logo2">
+			<br><div id="motto">We believe in Giving</div>
+			<ul class="bottom-links">
+					<li><a href="#">More Info</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Terms & Conditions</a></li>			
+					<li><a href="#">About Us</a></li>
+			</ul>
+			<center style="color: black; font-size: 150%; font-family: Arial Narrow;">	
+			free2O based in Bangalore, Karnataka-560090 India<br>
+			are registered trademarks of free2O's Properties, Inc. © 2019.<br>
+			All rights reserved. All other trademarks and trade names are properties of their respective owners.<br>
+			TO FIND OUT MORE ABOUT free2O's policy or water conservation, 
+			<a href="#" style="color: blue; font-family: Arial Narrow;">read policy</a>
+			</center>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/main.js">
+	</script>
+</body>
+</html>
